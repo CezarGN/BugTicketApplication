@@ -18,6 +18,7 @@ To enable JIRA integration, configure the following in your backend application 
 jira.api.url=https://your-jira-instance.atlassian.net
 jira.api.user=your-jira-username
 jira.api.token=your-jira-api-token
+```
 
 ## Authentication & Authorization
 
