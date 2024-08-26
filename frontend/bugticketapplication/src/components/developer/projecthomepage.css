@@ -1,0 +1,59 @@
+.project-container {
+    padding: 20px;
+  }
+  
+  .project-header {
+    margin-bottom: 20px;
+  }
+  
+  .project-description {
+    margin-bottom: 20px;
+  }
+  
+  .bug-list {
+    margin-bottom: 20px;
+  }
+  
+  .bug-list-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bug-status {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .bug-developer {
+    margin-left: 20px;
+    font-style: italic;
+  }
+  
+  .snackbar-success {
+    background-color: green;
+  }
+  
+  .snackbar-error {
+    background-color: red;
+  }
+  
+  .chart-container {
+    margin-top: 20px;
+  }
+  
+  .filter-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filter-container > * {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .filter-container > *:last-child {
+    margin-right: 0;
+  }
+  

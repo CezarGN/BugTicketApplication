@@ -1,0 +1,82 @@
+.add-project-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-project-form-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #3f51b5;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.add-project-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.add-project-form-select {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.selected-developers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.developer-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  padding: 6px 12px;
+  background-color: #3f51b5;
+  color: #ffffff;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.add-project-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.custom-alert {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 400px;
+}
+
+.MuiPaper-root {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.MuiInputBase-root {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.alert-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 400px;
+  z-index: 9999;
+}
+

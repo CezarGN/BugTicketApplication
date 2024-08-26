@@ -1,0 +1,28 @@
+.bug-details-container {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.bug-details-paper {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bug-status.open {
+    color: red;
+}
+
+.bug-status.in_progress {
+    color: orange;
+}
+
+.bug-status.closed {
+    color: green;
+}
+
+.back-button {
+    margin-top: 20px;
+}
